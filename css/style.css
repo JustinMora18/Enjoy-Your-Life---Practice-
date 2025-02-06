@@ -14,6 +14,18 @@ html, body {
     width: 100vw;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}  
+
 .navBar{
     display: flex;
     justify-content: center;  
@@ -48,4 +60,20 @@ html, body {
 .mainTitle{
     display: flex;
     justify-content: center;
+}
+
+.animation spline-viewer {
+    transform: scale(1.3);
+    margin-top: -60px;
+}
+
+.separator {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(35, 35, 35);
+    margin: 30px auto; 
+}
+
+.FstParagraph{
+    color: aliceblue;
 }
